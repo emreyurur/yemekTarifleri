@@ -8,6 +8,7 @@ const Stack=createNativeStackNavigator();
 
 import CategoriesScreen from "./src/screens/CategoriesScreen";
 import MealScreen from "./src/screens/MealScreen";
+import MealDetailScreen from "./src/screens/MealDetailScreen";
 
 const App=()=>{
   return(
@@ -15,6 +16,7 @@ const App=()=>{
       <Stack.Navigator>
         <Stack.Screen name="CategoriesScreen" component={CategoriesScreen} />
         <Stack.Screen name="MealScreen" component={MealScreen} />
+        <Stack.Screen name="MealDetailScreen" component={MealDetailScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   )
